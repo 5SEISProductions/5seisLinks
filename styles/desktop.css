@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+.Divprincipal{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right,blue, lime)
+}
+
+.divheader{
+    margin-top: 5vh;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 1.3vw;
+    font-family:Verdana;
+} 
+
+.profilepic5seis{
+    width: 8vw;
+    border-radius: 100%;
+}
+
+.divbuttons{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttonlink{
+    width: 55%;
+    height: 7vh;
+    border-radius: 30px;
+    border-color: white;
+    border-style: solid;
+    background-color: transparent;
+    border-width: 2px;
+    color: white;
+    font-size: 1.3vw;
+    transition: 0.3s;
+    font-family: Verdana;
+}
+
+.buttonlink:hover{
+    background-color: white;
+    color: lime;
+    cursor: pointer;
+}
+
+.alink{
+    display: none;
+}

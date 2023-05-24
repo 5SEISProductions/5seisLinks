@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+    .profilepic5seis{
+        width: 13vh;
+    }
+
+    .divheader{
+        font-size: 3vw;
+        text-align: center;
+        height: 30vh;
+    }
+
+    .buttonlink{
+        width: 70%;
+        height: 5vh;
+        font-size: 3vw;
+    }
+}
