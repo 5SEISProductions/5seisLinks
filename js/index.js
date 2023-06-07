@@ -35,5 +35,8 @@ function goToSocialmedia(num){
     if(num == 5){
         document.getElementById('twitter').click()
     }
+    if(num == 6){
+        document.getElementById('facebook').click()
+    }
 }
 

@@ -9,22 +9,24 @@
     }
 
     .divheader{
-        font-size: 3vw;
+        width: 90vw;
+        font-size: 3.5vw;
         text-align: center;
-        height: 30vh;
+        height: 15vh;
     }
 
     .buttonlink{
-        width: 70%;
-        height: 5vh;
-        font-size: 3vw;
+        width: 80%;
+        height: 6vh;
+        font-size: 3.5vw;
     }
 
     .contacticons{
         margin-top: 5vw;
+        width: 75%;
     }
 
     .linkicon{
-        width: 6vw;
+        width: 7vw;
     }
 }
