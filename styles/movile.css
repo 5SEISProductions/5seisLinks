@@ -1,6 +1,11 @@
 @media only screen and (max-width: 600px) {
+    
+    .Divprincipal{
+        background-image: url('../assets/MobileBG.jpg');
+    }
+    
     .profilepic5seis{
-        width: 13vh;
+        width: 11vh;
     }
 
     .divheader{
@@ -13,5 +18,13 @@
         width: 70%;
         height: 5vh;
         font-size: 3vw;
+    }
+
+    .contacticons{
+        margin-top: 5vw;
+    }
+
+    .linkicon{
+        width: 6vw;
     }
 }

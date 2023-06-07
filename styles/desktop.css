@@ -8,24 +8,28 @@ body{
     width: 100vw;
     height: 100vh;
     align-items: center;
-    background: linear-gradient(to bottom right,blue, lime)
+    background-image: url('../assets/DesktopBG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .divheader{
-    margin-top: 5vh;
-    width: 100vw;
-    height: 40vh;
+    margin-top: 7vh;
+    width: 38vw;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
-    font-size: 1.3vw;
+    color: black;
+    font-size: 1.2vw;
     font-family:Verdana;
+    text-align: center;
 } 
 
 .profilepic5seis{
-    width: 8vw;
-    border-radius: 100%;
+    width: 9vw;
+    margin-bottom: 1vw;
 }
 
 .divbuttons{
@@ -38,22 +42,22 @@ body{
 }
 
 .buttonlink{
-    width: 55%;
+    width: 25%;
     height: 7vh;
-    border-radius: 30px;
+    border-radius: 50px;
     border-color: white;
     border-style: solid;
     background-color: transparent;
     border-width: 2px;
     color: white;
     font-size: 1.3vw;
-    transition: 0.3s;
+    transition: 0.4s;
     font-family: Verdana;
 }
 
 .buttonlink:hover{
-    background-color: white;
-    color: lime;
+    background-image: linear-gradient(to right,#8500E7, #FF065D);
+    color: white;
     cursor: pointer;
 }
 
@@ -64,15 +68,21 @@ body{
 .contacticons{
     width: 60vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+    margin-top: 1.3vw;
 }
 
 .linkicon{
     cursor: pointer;
     transition: 0.3s;
     border-radius: 5px;
+    width: 1.7vw;
 }
 
 .linkicon:hover{
     background-color: white;
+}
+
+.alinksocialmedia{
+    display: none;
 }
