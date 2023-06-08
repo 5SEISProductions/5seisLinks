@@ -21,7 +21,7 @@ function gotodisegrafico(num){
 
 function goToSocialmedia(num){
     if(num == 1){
-        document.getElementById('outlook').click()
+        document.getElementById('behance').click()
     }
     if(num == 2){
         document.getElementById('youtube').click()

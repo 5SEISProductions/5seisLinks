@@ -22,8 +22,24 @@
     }
 
     .contacticons{
-        margin-top: 5vw;
+        margin-top: 6vw;
         width: 75%;
+    }
+    
+    #icon1{
+        height: 6.5vw; 
+    }
+    #icon2{
+        height: 6.5vw; 
+    }
+    #icon3{
+        height: 5.8vw; 
+    }
+    #icon5{
+        height: 5.3vw; 
+    }
+    #icon4{
+        height: 5.3vw; 
     }
 
     .linkicon{

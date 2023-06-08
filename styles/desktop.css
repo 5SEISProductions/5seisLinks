@@ -67,20 +67,36 @@ body{
 
 .contacticons{
     width: 20vw;
+    height: 0vw;
     display: flex;
     justify-content:space-evenly;
     margin-top: 3vw;
+    align-items: center;
 }
 
 .linkicon{
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 5px;
-    width: 1.7vw;
+}
+
+#icon1{
+    height: 2vw; 
+}
+#icon2{
+    height: 2vw; 
+}
+#icon3{
+    height: 1.7vw; 
+}
+#icon5{
+    height: 1.5vw; 
+}
+#icon4{
+    height: 1.5vw; 
 }
 
 .linkicon:hover{
-    background-color: white;
+    transform: scale(115%);
 }
 
 .alinksocialmedia{
