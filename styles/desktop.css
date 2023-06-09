@@ -56,7 +56,7 @@ body{
 }
 
 .buttonlink:hover{
-    background-color: #8500E7;
+    background: linear-gradient(to right, #8500E7, #FF065D);
     color: white;
     cursor: pointer;
 }
@@ -76,24 +76,29 @@ body{
 
 .linkicon{
     cursor: pointer;
-    transition: 0.3s;
+    transform: scale(0.8);
 }
 
-#icon1{
-    height: 2vw; 
+/* #icon1{
+    width: 1.5vw;
+    height: 1.5vw;
 }
 #icon2{
-    height: 2vw; 
+    width: 1.5vw;
+    height: 1.5vw;
 }
 #icon3{
-    height: 1.7vw; 
-}
-#icon5{
-    height: 1.5vw; 
+    width: 1.6vw;
+    height: 1.4vw; 
 }
 #icon4{
-    height: 1.5vw; 
+    width: 1.9vw;
+    height: 1.4vw;
 }
+#icon5{
+    width: 1.9vw;
+    height: 1.4vw;
+} */
 
 .linkicon:hover{
     transform: scale(115%);
