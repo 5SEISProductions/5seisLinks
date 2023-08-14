@@ -26,26 +26,23 @@
         width: 75%;
         transform: scale(0.8);
     }
+
+    .twitter{
+        width: 13vw;
+        margin-top: 1vw;
+    }
+
+    .instagram{
+        margin-top: 1vw;
+    }
+
+    .youtube{
+        margin-top: 1.2vw;
+    }
+
+    .behance{
+        margin-top: 1.2vw;
+    }
     
-    /* #icon1{
-        height: 32px;
-        width: 32px; 
-    }
-    #icon2{
-        height: 32px;
-        width: 32px;
-    }
-    #icon3{
-        height: 28px;
-        width: 32px;
-    }
-    #icon5{
-        height: 28px;
-        width: 35px;
-    }
-    #icon4{
-        height: 28px;
-        width: 35px;
-    } */
 
 }

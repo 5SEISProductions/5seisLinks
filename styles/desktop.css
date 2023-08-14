@@ -78,6 +78,23 @@ body{
     cursor: pointer;
     transform: scale(0.8);
 }
+.twitter{
+    width: 3.3vw;
+    margin-top: 0.2vw;
+}
+
+.instagram{
+    margin-top: 0.2vw;
+}
+
+.youtube{
+    margin-top: 0.4vw;
+}
+
+.behance{
+    margin-top: 0.5vw;
+}
+
 
 /* #icon1{
     width: 1.5vw;
